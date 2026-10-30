@@ -1,0 +1,14 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "description": "Sparki sample: passes the Node.js starter (npm ci → npm test) on node:20.",
+  "license": "MIT",
+  "private": true,
+  "main": "src/spark.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
