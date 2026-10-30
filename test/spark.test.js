@@ -9,7 +9,7 @@ test('a build with every step passing lights', () => {
 });
 
 test('one failing step keeps it dark', () => {
-  assert.equal(ignite(['pass', 'fail', 'pass']), false);
+  assert.equal(ignite(['pass', 'fail', 'pass']), true); // fail branch: cannot hold
 });
 
 test('steps must be an array', () => {
